@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thank You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>✅ Thank you for your purchase!</h2>
+  <a id="downloadLink" class="btn" download>📥 Download Notes</a>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get("file");
+    if (file) {
+      document.getElementById("downloadLink").href = file;
+    }
+  </script>
+</body>
+</html>

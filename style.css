@@ -1,0 +1,17 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+.btn {
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.note {
+  margin: 20px;
+  padding: 10px;
+}
